@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="./preloader.css">
     <link rel="stylesheet" href="./style.css">
 
     <title>Raio Segurança</title>
@@ -22,8 +22,7 @@
         <div class="nav_area">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="logo" href="./index.html"><img class="imgLogo" src="./assets/logo.png"
-                            alt="logo"></a>
+                    <a class="logo" href="./index.html"><img class="imgLogo" src="./assets/logo.png" alt="logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -32,49 +31,19 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="container">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
-                                
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        SERVIÇOS
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="/Categoria/gato.html">Serviços
-                                                terceirizados</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="/Categoria/peixes.html">Portaria e
-                                                recepção</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="/Categoria/cão.html">Conservação e
-                                                limpeza</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/Categoria/cão.html">Manutenção
-                                                elétrica</a>
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/Categoria/cão.html">Segurança</a>
-                                        </li>
-                                    </ul>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#servicos">SERVIÇOS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/agendamento/agendamento.html">CONTEÚDOS</a>
+                                    <a class="nav-link" href="#conteudos">CONTEÚDOS</a>
                                 </li>
-                               
+
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">SOBRE</a>
+                                    <a class="nav-link" href="#conteudos">SOBRE</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">FALE CONOSCO</a>
+                                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=5531984115567&text=Boa%20tarde%2C%20gostaria%20de%20olhar%20um%20servi%C3%A7o">FALE CONOSCO</a>
                                 </li>
                             </ul>
                         </div>
@@ -86,111 +55,94 @@
 
     <!--MAIN  --->
     <main>
-
         <!--slide  --->
         <div>
             <img src="./assets/fundodois.jpg" style="width: 100%;" alt="">
         </div>
-      
-       
         <div class="bloco2">
             <div class="buttons">
-                <button class="btn1">FALE CONOSCO</button>
-                <button class="btn2">conheça a Raio Segurança</button>
+                <a href=""><button class="btn2">conheça a Raio Segurança</button></a>
+               <a href="https://api.whatsapp.com/send?phone=5531984115567&text=Boa%20tarde%2C%20gostaria%20de%20olhar%20um%20servi%C3%A7o"><button class="btn1">FALE CONOSCO</button></a> 
+                
             </div>
-          
             <h2>
-                 CHAME A RAIO SEGURANÇA, TEMOS VÁRIOS PROFISSIONAIS DISPONIVEIS PARA SUA EMPRESA</h2>
-            <div class="blocoImg">
-                
-                    <li> <img style="width: 100px;" src="./assets/trabalhador.png" alt="">Segurança em um nicho</li>
-                    <li>Prestação de serviço <img style="width: 100px;" src="./assets/confianca.png" alt=""></li>
-                    <li> <img style="width: 100px;" src="./assets/profissionalismo.png" alt="">Assistência 24 hs</li>
-                    <li>Qualidade e satisfação<img style="width: 100px;" src="./assets/satisfacao.png" alt=""></li>
-                
+                CHAME A RAIO SEGURANÇA, TEMOS VÁRIOS PROFISSIONAIS DISPONIVEIS PARA SUA EMPRESA</h2>
+            <div class="blocoImg" id="conteudos">
+                <li> <img style="width: 100px;" src="./assets/trabalhador.png" alt="">Segurança em geral</li>
+                <li>Prestação de serviço <img style="width: 100px;" src="./assets/confianca.png" alt=""></li>
+                <li> <img style="width: 100px;" src="./assets/profissionalismo.png" alt="">Assistência 24 hs</li>
+                <li>Qualidade e satisfação<img style="width: 100px;" src="./assets/satisfacao.png" alt=""></li>
             </div>
         </div>
         <h3 class="tituloh3"> CONHEÇA NOSSOS SERVIÇOS:</h3>
-        
-
-        <div class="bloco3">
-            <div class="card" >
+        <div class="bloco3" id="servicos">
+            <div class="card">
                 <img class="card-img-top" src="./assets/seguranças.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Vigilancia e Segurança</h5>
-                    <p class="card-text">Focamos em prevenir e controlar delitos e outras irregularidades, por meio de um trabalho que ...</p>
-                    <a href="#" class="btn btn-primary">Conheça</a>
+                    <p class="card-text">Focamos em prevenir e controlar delitos e outras irregularidades, por meio de
+                        um trabalho que ...</p>
                 </div>
             </div>
-            <div class="card" >
+            <div class="card">
                 <img class="card-img-top" src="./assets/eletricista.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Manutenção Eletrica</h5>
-                    <p class="card-text">Buscamos proteger e dar assistencia para tipos de falhas, acidentes, verificações...</p>
-                    <a href="#" class="btn btn-primary">Conheça</a>
+                    <p class="card-text">Buscamos proteger e dar assistencia para tipos de falhas, acidentes,
+                        verificações...</p>
                 </div>
             </div>
-            <div class="card" >
+            <div class="card">
                 <img class="card-img-top" src="./assets/limpeza.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Conservação e limpeza</h5>
-                    <p class="card-text">Realizamos higienização e conservação de ambientes comerciais e organizacionais...</p>
-                    <a href="#" class="btn btn-primary">Conheça</a>
+                    <p class="card-text">Realizamos higienização e conservação de ambientes comerciais e
+                        organizacionais...</p>
                 </div>
             </div>
-            <div class="card" >
+            <div class="card">
                 <img class="card-img-top" src="./assets/jardim.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Jardinagem</h5>
-                    <p class="card-text">Realizamos cultivo e manutenção de jardin com onjetivo em embelezar e podar flores por meio...</p>
-                    <a href="#" class="btn btn-primary">Conheça</a>
+                    <p class="card-text">Realizamos cultivo e manutenção de jardin com onjetivo em embelezar e podar
+                        flores por meio...</p>
                 </div>
             </div>
-            
         </div>
         <div class="bloco3">
-            <div class="card" >
+            <div class="card">
                 <img class="card-img-top" src="./assets/encanadorr.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Encanador</h5>
-                    <p class="card-text">Fazemos manutenção dos sitemas de água e esgoto das residencias, fabricas, empresas e demais....</p>
-                    <a href="#" class="btn btn-primary">Conheça</a>
+                    <p class="card-text">Fazemos manutenção dos sitemas de água e esgoto das residencias, fabricas,
+                        empresas e demais....</p>
                 </div>
             </div>
-            <div class="card" >
+            <div class="card">
                 <img class="card-img-top" src="./assets/recepcao.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Portaria e Recepção</h5>
-                    <p class="card-text">Recepcionistas com boa comunicação com os visitantes e a organização, conhecimento sobre a area que atua...</p>
-                    <a href="#" class="btn btn-primary">Conheça</a>
+                    <p class="card-text">Recepcionistas com boa comunicação com os visitantes e a organização,
+                        conhecimento sobre a area que atua...</p>
                 </div>
             </div>
-            <div class="card" >
-                <img class="card-img-top" src="./assets/limpeza.jpg" alt="Card image cap">
+            <div class="card">
+                <img class="card-img-top" src="./assets/civileng.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Conservação e limpeza</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Conheça</a>
+                    <h5 class="card-title">Engenheiro Civil</h5>
+                    <p class="card-text">responsável por executar, gerenciar, supervisionar e projetar obras e construções. Ele trabalha com obras em
+                        infraestrutura de barragens etc</p>
                 </div>
             </div>
-            <div class="card" >
-                <img class="card-img-top" src="./assets/jardim.jpg" alt="Card image cap">
+            <div class="card">
+                <img class="card-img-top" src="./assets/carcelening.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Jardinagem</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Conheça</a>
+                    <h5 class="card-title">Lavagem de carro</h5>
+                    <p class="card-text">Especializamos em combater os mais pesados tipos de limpezas para cada veiculo...</p>
                 </div>
             </div>
-            
         </div>
-
-
-       
-
     </main>
-
     <!--FOOTER  --->
     <footer class="text-center text-lg-start bg-white text-muted">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -224,20 +176,14 @@
 
         <section class="">
             <div class="container text-center text-md-start mt-5">
-
                 <div class="row mt-3">
-
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
                         <h6 class="text-uppercase fw-bold mb-4">
                             <a class="logo" href="./index.html"><img class="imgLogo" src="./assets/raioSeguranca.jpg"
                                     alt="logo"></a>
                         </h6>
-
                     </div>
-
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
                         <h6 class="text-uppercase fw-bold mb-4">
                             Serviços
                         </h6>
@@ -286,8 +232,8 @@
                             <i class="fas fa-envelope me-3 text-secondary"></i>
                             raioseguranca1@gmail.com
                         </p>
-                        <p><i class="fas fa-phone me-3 text-secondary"></i> + 55 31 9234-0201</p>
-                        <p><i class="fas fa-print me-3 text-secondary"></i> + 55 31 8333-0973</p>
+                        <p><i class="fas fa-phone me-3 text-secondary"></i> + 55 31 98411-5567</p>
+                        <p><i class="fas fa-print me-3 text-secondary"></i> + 55 31 3291-4356</p>
                     </div>
                     <!-- Grid column -->
                 </div>

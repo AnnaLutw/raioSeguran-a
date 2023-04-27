@@ -24,6 +24,10 @@ li{
 .buttons{
     display: flex;
    justify-content: space-around;
+   margin-bottom: 50px;
+}
+.btn1:hover{
+    width: 700px;
 }
 .btn1{   
     
@@ -34,8 +38,10 @@ li{
     width: 400px;
     height: 100px;
     font-size: 30px;
-    top: 150%;
-    left: 100%;
+
+}
+.btn2:hover{
+    width: 700px;
 }
 .btn2{
     
@@ -142,6 +148,10 @@ h3{
     font-size: 18px;
 }
 
+.card:hover{
+    width: 30rem;
+}
+
 @media (max-width: 1000px){
 
 .logoImgCentro{
@@ -219,3 +229,4 @@ h1{
     margin-top: 20px;
 }
 }
+
